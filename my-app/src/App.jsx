@@ -1,5 +1,6 @@
 import './App.css';
-import EjemploOne from './hooks/EjemploOne';
+// import EjemploOne from './hooks/EjemploOne';
+import EjemploTwo from './hooks/EjemploTwo';
 // import ContactListComponent from './components/container/Contact_list';
 // import TaskListComponent from './components/container/Task_list';
 // import Saludo from './components/pure/Saludo';
@@ -14,7 +15,8 @@ function App() {
       {/* <TaskListComponent></TaskListComponent> */}
       <div>
       {/* <ContactListComponent></ContactListComponent> */}
-      <EjemploOne></EjemploOne>
+      {/* <EjemploOne></EjemploOne> */}
+      <EjemploTwo></EjemploTwo>
       </div>
     </div>
   );
