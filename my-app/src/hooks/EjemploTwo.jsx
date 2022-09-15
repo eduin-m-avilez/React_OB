@@ -25,8 +25,9 @@ export default function EjemploTwo() {
 
     //useEffect() para controlar el estado de los elementos
     useEffect(() => {
-        console.log("cambio el estado")
-    }, []);
+        console.log("cambio el estado");
+        console.log(miRef);
+    }, [contador1, contador2]);
 
 
     return (
